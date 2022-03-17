@@ -1,0 +1,27 @@
+{
+  "name": "alexa-rise",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/js/index.js",
+  "main": "dist/index.js",
+  "browserslist": "last 2 version",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html ",
+    "prod": "parcel build src/index.html"
+  },
+  "staticFiles": {
+    "staticPath": "src",
+    "watcherGlob": "**"
+},
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "autoprefixer": "^10.4.4",
+    "parcel": "^2.3.2",
+    "parcel-plugin-static-files-copy": "^2.6.0",
+    "parsel": "^0.3.0",
+    "posthtml-include": "^1.7.2"
+  }
+}
